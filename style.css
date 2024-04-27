@@ -127,6 +127,9 @@ nav {
     body {
       overflow-x: hidden;
     }
+    a{
+        color: var(--branco);
+    }
     .nav-list {
       position: absolute;
       top: 8vh;
@@ -209,7 +212,7 @@ main {
 }
 
 .sobre p{
-    max-width: 400px;
+    max-width: 500px;
     text-align: center;
     color: var(--branco);
     font-family: var(--p_font-family);
@@ -246,12 +249,12 @@ main {
 
 .inspiracao-texto h2 {
     color: var(--azul-medium);
-    text-align: center;
+    text-align: left;
 }
 
 .inspiracao-texto h1 {
     color: var(--azul-max);
-    text-align: center;
+    text-align: left;
     padding-bottom: 2vh;
 }
 
@@ -277,7 +280,7 @@ main {
 
     .inspiracao-texto {
         padding: 0;
-        text-align: left;
+        text-align: right;
         margin: 0; 
         max-width: 100%; 
     }
@@ -285,7 +288,8 @@ main {
     .inspiracao-texto h1,
     .inspiracao-texto h2,
     .inspiracao-texto p {
-        text-align: left;
+        text-align: right;
+        padding: 0 10px 0 10px;
     }
 
     .inspiracao-texto p {
@@ -295,7 +299,7 @@ main {
     .inspiracao-img {
         margin-top: 10px;
         display: flex;
-        justify-content: center; 
+        justify-content: left; 
         width: 100%; 
     }
 
@@ -375,7 +379,7 @@ main {
     }
 
     .circulo-container div {
-        margin-right: 10px;
+        margin-right: 18px;
     }
 
     .circulo1, .circulo2, .circulo3, .circulo4 {
