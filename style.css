@@ -301,8 +301,7 @@ main {
     .inspiracao-img {
         margin-top: 10px;
         display: flex;
-        /**/
-        justify-content: left; 
+        justify-content: center; 
         width: 100%; 
     }
 
@@ -465,7 +464,7 @@ main {
         margin-top: 10px;
         display: flex;
         /**/
-        justify-content: right; 
+        justify-content: center; 
         width: 70%; 
         margin-right: 0vh;
         margin-bottom: 10vh;
