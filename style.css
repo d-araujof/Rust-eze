@@ -282,7 +282,7 @@ main {
 
     .inspiracao-texto {
         padding: 0;
-        text-align: right;
+        text-align: center;
         margin: 0; 
         max-width: 100%; 
     }
@@ -290,7 +290,7 @@ main {
     .inspiracao-texto h1,
     .inspiracao-texto h2,
     .inspiracao-texto p {
-        text-align: right;
+        text-align: center;
         padding: 0 10px 0 10px;
     }
 
@@ -301,6 +301,7 @@ main {
     .inspiracao-img {
         margin-top: 10px;
         display: flex;
+        /**/
         justify-content: left; 
         width: 100%; 
     }
@@ -390,7 +391,7 @@ main {
 }
 
 
-/* BRUNO MEXE NISSO */ 
+/* MEXE NISSO */ 
 /* CARDS*/
 .hardware {
     margin-bottom: 10vh;
@@ -450,19 +451,20 @@ main {
 
     .robo-texto {
         padding: 0;
-        text-align: left;
+        text-align: center;
         margin: 0; 
         max-width: 100%; 
     }
 
     .robo-texto h1,
     .robo-texto p {
-        text-align: left;
+        text-align: center;
     }
 
     .robo-img {
         margin-top: 10px;
         display: flex;
+        /**/
         justify-content: right; 
         width: 70%; 
         margin-right: 0vh;
