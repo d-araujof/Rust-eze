@@ -123,8 +123,7 @@ nav {
     margin: 8px;
     transition: 0.3s;
 }
-
-
+  
 @media (max-width: 1025px) {
     body {
       overflow-x: hidden;
