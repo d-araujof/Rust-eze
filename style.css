@@ -203,7 +203,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: justify;
 }
 
 .sobre h1{
@@ -213,7 +213,7 @@ main {
 }
 
 .sobre p{
-    max-width: 500px;
+    max-width: 900px;
     text-align: center;
     color: var(--branco);
     font-family: var(--p_font-family);
@@ -532,15 +532,16 @@ main {
     }
 
     .equipe div {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
         gap: 1vh;
         justify-content: center;
         align-items: center;
+        width: 100%;
+        max-width: 300px; /* Define a largura máxima das img */
+        margin-left: auto;
+        margin-right: auto; 
     }
 
     .equipe div img {
-        max-width: 100px;
         margin-bottom: 0;
     }
 
@@ -552,9 +553,10 @@ main {
         margin-bottom: 2vh;
     }
 
-    .equipe h1{
+    .equipe h1 {
         color: var(--azul-max);
         text-align: center;
         margin-bottom: 20px;
     }
 }
+
